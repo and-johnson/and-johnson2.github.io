@@ -1,0 +1,82 @@
+<style>
+    * {
+      border: thin red solid;
+    }
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #e3f6f5;
+      display: flex;
+      justify-content: center;
+      font-family: 'Barlow', sans-serif;
+    }
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+    .name {
+      color: #272343;
+      display: flex;
+      font-weight: bold;
+      font-size: 24px;
+      justify-content: center;
+    }
+    .social-icons {
+      color: #272343;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-around;
+    }
+    .icon {
+      height: 40px;
+    }
+    .button {
+      display: inline-block;
+      /*padding: 8px 16px;*/
+      color: white;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      box-shadow: 2px 2px 4px rgba(133, 133, 133, 0.301); /* This line adds the shadow */
+    }
+    .button:hover {
+      background-color: #f9d560;
+      box-shadow: 3px 3px 6px rgba(139, 139, 139, 0.5); /* This line increases the shadow on hover */
+    }
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    .link a {
+      color: #272343;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      flex-grow: 1;
+      border-radius: 10px;
+    }
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+</style>
